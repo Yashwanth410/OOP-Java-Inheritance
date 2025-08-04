@@ -13,8 +13,8 @@ class Car extends Vehicle {
 public class VehicleSystem {
     public static void main(String[] args) {
         Car car = new Car();
-        car.move();       // Inherited method
-        car.fuelType();   // Car-specific method
+        car.move();       
+        car.fuelType();   
     }
 }
 
