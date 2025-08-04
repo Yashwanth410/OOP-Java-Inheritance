@@ -19,9 +19,9 @@ class Puppy extends Dog {
 public class PetManagement {
     public static void main(String[] args) {
         Puppy puppy = new Puppy();
-        puppy.eat();   // From Animal
-        puppy.bark();  // From Dog
-        puppy.weep();  // Own method
+        puppy.eat();   
+        puppy.bark();  
+        puppy.weep();  
     }
 }
 
