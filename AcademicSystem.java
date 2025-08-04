@@ -21,9 +21,9 @@ class GraduateStudent extends Student {
 public class AcademicSystem {
     public static void main(String[] args) {
         GraduateStudent gs = new GraduateStudent();
-        gs.displayInfo();   // From Person
-        gs.showID();        // From Student
-        gs.submitThesis();  // Own method
+        gs.displayInfo(); 
+        gs.showID();        
+        gs.submitThesis();
     }
 }
 
