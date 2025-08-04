@@ -19,9 +19,9 @@ class CeilingFan extends Fan {
 public class SmartHome {
     public static void main(String[] args) {
         CeilingFan cf = new CeilingFan();
-        cf.turnOn();       // From Appliance
-        cf.rotate();       // From Fan
-        cf.setSpeed(3);    // Own method
+        cf.turnOn();       
+        cf.rotate();       
+        cf.setSpeed(3);    
     }
 }
 
